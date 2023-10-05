@@ -54,6 +54,29 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 
 5. Para sair, digite "sim" quando for solicitado.
 
+## Todo
+-[ ] Previsão do tempo: Adicione a capacidade de obter informações meteorológicas, como a previsão do tempo para uma determinada cidade. Você pode usar bibliotecas como "pyowm" ou "requests" para obter dados meteorológicos de uma API de previsão do tempo.
+
+-[ ]  Informações sobre filmes ou séries: Integre o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
+
+-[ ] Comandos de controle do computador: Permita que o assistente execute tarefas no computador, como abrir programas, criar lembretes, agendar eventos ou fazer capturas de tela.
+
+-[ ] Tradução de idiomas: Adicione a funcionalidade de tradução para permitir que o assistente traduza palavras ou frases para outros idiomas.
+
+-[ ] Pesquisa em outros mecanismos de busca: Além da pesquisa no Wikipedia, permita que o assistente pesquise em outros mecanismos de busca, como o Google, para fornecer resultados mais abrangentes.
+
+-[ ] Respostas a perguntas gerais: Melhore o modelo de linguagem para que o assistente possa responder a perguntas gerais com base em seu conhecimento prévio, em vez de depender exclusivamente do Wikipedia.
+
+-[ ] Lembrete de compromissos: Implemente uma funcionalidade para agendar e lembrar compromissos ou tarefas importantes.
+
+-[ ] Controle de dispositivos inteligentes: Se você tiver dispositivos inteligentes compatíveis em casa, pode adicionar a capacidade de controlá-los através do assistente, como ligar/desligar luzes, ajustar termostatos, etc.
+
+-[ ] Suporte a comandos em outros idiomas: Permita que o assistente entenda e responda a comandos em diferentes idiomas, tornando-o mais acessível para usuários multilíngues.
+
+-[ ] Suporte a comandos personalizados: Implemente a capacidade de adicionar comandos personalizados para tarefas específicas, de acordo com as necessidades do usuário.
+
+-[ ] Substituir o ChatGPT
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos para o projeto Jarvis. Basta criar um fork do repositório, fazer suas alterações e enviar uma solicitação pull.
