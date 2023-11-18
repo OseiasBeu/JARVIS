@@ -1,6 +1,7 @@
 import wikipedia
 import pywhatkit
 import yfinance as yf
+from modules import finance
 
 def execute_command(comando):
     if 'procure por' in comando:
@@ -29,18 +30,13 @@ def execute_command(comando):
     #     print(reponse)
     #     maquina.say(reponse)
     #     maquina.runAndWait()
+    
     elif 'cotação' in comando or 'cote' in comando or 'qual o valor da ação' in comando:
         symbol = comando.replace('cotação','').replace('cote','').replace('qual o valor da ação','').rstrip().strip().upper()
         try:
-            acao = yf.Ticker(symbol)
-            dados_cotacao = acao.history(period='1d')
-            cotacao_atual = dados_cotacao['Close'].iloc[-1]
-            print(f'Ação:{symbol}')
-            print(f'Cotação atual:{cotacao_atual}')
-            
-            resultado = f'Ação:{symbol} \n Cotação atual:{cotacao_atual}'
+            resultado = finance.obter_cotacao_acao(symbol)
             return resultado
             
         except Exception as e:
             print(f'Erro ao obter cotação da ação {symbol}:{e}')
-            return None
+            return f'Erro ao obter cotação da ação'
