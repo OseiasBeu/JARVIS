@@ -1,5 +1,6 @@
-# Jarvis - Assistente de Comando por Voz em Python
+# Project Jarvis - Assistente de Comando por Voz em Python
 
+## ETHAN: Entidade Tecnológica de Assistência Nurtural
 Jarvis é um assistente de comando por voz simples e eficaz em Python que utiliza reconhecimento de fala para executar várias tarefas, como pesquisar na Wikipedia, reproduzir músicas no YouTube, obter informações de cotação de ações e interagir com o modelo de linguagem GPT-3 da OpenAI.
 
 ## Pré-requisitos
@@ -55,6 +56,16 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 5. Para sair, digite "sim" quando for solicitado.
 
 ## Todo
+-[ ] Criar função de criação de venv
+
+-[ ] Criar função de instalação de preparação do ambiente
+
+-[ ] Criar módulos de testes
+
+-[ ] Criar documentação para todos os módulos e classes
+
+-[ ] Criar sistema de logs
+
 -[ ] Previsão do tempo: Adicione a capacidade de obter informações meteorológicas, como a previsão do tempo para uma determinada cidade. Você pode usar bibliotecas como "pyowm" ou "requests" para obter dados meteorológicos de uma API de previsão do tempo.
 
 -[ ]  Informações sobre filmes ou séries: Integre o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
