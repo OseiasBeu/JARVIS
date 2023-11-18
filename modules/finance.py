@@ -9,9 +9,9 @@ def obter_cotacao_acao(symbol):
         print(f'Erro ao obter cotação da ação {symbol}:{e}')
         return None
     
-symbol = 'AAPL'
-cotacao = obter_cotacao_acao(symbol)
-if cotacao is not None:
-    print(f'Ação: {symbol}')
-    print(f'Cotação atual: {cotacao}')
+# symbol = 'AAPL'
+# cotacao = obter_cotacao_acao(symbol)
+# if cotacao is not None:
+#     print(f'Ação: {symbol}')
+#     print(f'Cotação atual: {cotacao}')
     

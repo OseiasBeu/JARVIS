@@ -1,6 +1,6 @@
 # Project Jarvis - Assistente de Comando por Voz em Python
 
-## ETHAN: Entidade Tecnológica de Assistência Nurtural
+## ETHAN: Entidade Tecnológica de Assistência Natural
 Jarvis é um assistente de comando por voz simples e eficaz em Python que utiliza reconhecimento de fala para executar várias tarefas, como pesquisar na Wikipedia, reproduzir músicas no YouTube, obter informações de cotação de ações e interagir com o modelo de linguagem GPT-3 da OpenAI.
 
 ## Pré-requisitos
@@ -66,6 +66,24 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 
 -[ ] Criar sistema de logs
 
+- [ ] Abertura de págins web / sites específicos
+
+- [ ] Previsão do tempo
+
+- [ ] Notícias do dia 
+
+- [ ] escreva um nota
+
+- [ ] DistÂncia entre duas localizações
+
+- [ ] Minha cocalização 
+
+- [ ] Eventos em calendários
+
+- [ ] 
+
+- [x] Criar função de saida 
+
 -[ ] Previsão do tempo: Adicione a capacidade de obter informações meteorológicas, como a previsão do tempo para uma determinada cidade. Você pode usar bibliotecas como "pyowm" ou "requests" para obter dados meteorológicos de uma API de previsão do tempo.
 
 -[ ]  Informações sobre filmes ou séries: Integre o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
@@ -82,11 +100,9 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 
 -[ ] Controle de dispositivos inteligentes: Se você tiver dispositivos inteligentes compatíveis em casa, pode adicionar a capacidade de controlá-los através do assistente, como ligar/desligar luzes, ajustar termostatos, etc.
 
--[ ] Suporte a comandos em outros idiomas: Permita que o assistente entenda e responda a comandos em diferentes idiomas, tornando-o mais acessível para usuários multilíngues.
-
 -[ ] Suporte a comandos personalizados: Implemente a capacidade de adicionar comandos personalizados para tarefas específicas, de acordo com as necessidades do usuário.
 
--[ ] Substituir o ChatGPT
+-[x] Substituir o ChatGPT
 
 ## Contribuição
 
