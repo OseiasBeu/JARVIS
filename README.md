@@ -56,6 +56,13 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 5. Para sair, digite "sim" quando for solicitado.
 
 ## Todo
+-[ ] Criação de GUI
+
+-[ ] Criar configurações de inicialização
+   -[ ] Login
+   -[ ] Senha
+   -[ ] FaceID
+   -[ ] Voz ID
 -[ ] Criar função de criação de venv
 
 -[ ] Criar função de instalação de preparação do ambiente
@@ -80,10 +87,6 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 
 - [ ] Eventos em calendários
 
-- [ ] 
-
-- [x] Criar função de saida 
-
 -[ ] Previsão do tempo: Adicione a capacidade de obter informações meteorológicas, como a previsão do tempo para uma determinada cidade. Você pode usar bibliotecas como "pyowm" ou "requests" para obter dados meteorológicos de uma API de previsão do tempo.
 
 -[ ]  Informações sobre filmes ou séries: Integre o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
@@ -102,7 +105,12 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 
 -[ ] Suporte a comandos personalizados: Implemente a capacidade de adicionar comandos personalizados para tarefas específicas, de acordo com as necessidades do usuário.
 
+## Ultimas Atualizações
 -[x] Substituir o ChatGPT
+   Agora não utilizamos o chatgpt na função criativa, mas ainda utilizamos um modelos degenerativo para aprendizagem e criação. 
+
+- [x] Criar função de saida 
+   Implementei a função de saída com a fala, agora para sair basta dizer: `sair` ou `fechar programa` que ele será desligado.
 
 ## Contribuição
 
