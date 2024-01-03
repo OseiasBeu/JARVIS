@@ -56,52 +56,52 @@ Antes de usar o Jarvis, você precisa ter os seguintes pré-requisitos instalado
 5. Para sair, digite "sim" quando for solicitado.
 
 ## Todo
--[ ] Criação de GUI
+- [ ] Criação de GUI
 
--[ ] Criar configurações de inicialização
-   -[ ] Login
-   -[ ] Senha
-   -[ ] FaceID
-   -[ ] Voz ID
+- [ ] Criar configurações de inicialização
+   - [ ] Login
+   - [ ] Senha
+   - [ ] FaceID
+   - [ ] Voz ID
 
--[ ] Criar função de criação de venv
+- [ ] Criar função de criação de venv
 
--[ ] Criar função de instalação de preparação do ambiente
+- [ ] Criar função de instalação de preparação do ambiente
 
--[ ] Criar módulos de testes
+- [ ] Criar módulos de testes
 
--[ ] Criar documentação para todos os módulos e classes
+- [ ] Criar documentação para todos os módulos e classes
 
--[ ] Criar sistema de logs
+- [ ] Criar sistema de logs
 
--[ ] Abertura de págins web / sites específicos
+- [ ] Abertura de págins web / sites específicos
 
--[ ] Previsão do tempo
+- [ ] Previsão do tempo
 
--[ ] Notícias do dia 
+- [ ] Notícias do dia 
 
--[ ] escreva um nota
+- [ ] escreva um nota
 
--[ ] DistÂncia entre duas localizações
+- [ ] DistÂncia entre duas localizações
 
--[ ] Minha cocalização 
+- [ ] Minha cocalização 
 
--[ ] Eventos em calendários
+- [ ] Eventos em calendários
 
--[ ] Informações sobre filmes ou séries: Integrar o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
+- [ ] Informações sobre filmes ou séries: Integrar o assistente com uma API de dados sobre filmes e séries para fornecer informações sobre lançamentos, elenco, sinopse e avaliações.
 
--[ ] Comandos de controle do computador: Permitir que o assistente execute tarefas no computador, como abrir programas, criar lembretes, agendar eventos ou fazer capturas de tela.
+- [ ] Comandos de controle do computador: Permitir que o assistente execute tarefas no computador, como abrir programas, criar lembretes, agendar eventos ou fazer capturas de tela.
 
--[ ] Tradução de idiomas: Adicionar a funcionalidade de tradução para permitir que o assistente traduza palavras ou frases para outros idiomas.
+- [ ] Tradução de idiomas: Adicionar a funcionalidade de tradução para permitir que o assistente traduza palavras ou frases para outros idiomas.
 
--[ ] Pesquisa em outros mecanismos de busca: Além da pesquisa no Wikipedia, permitir que o assistente pesquise em outros mecanismos de busca, como o Google, para fornecer resultados mais abrangentes.
+- [ ] Pesquisa em outros mecanismos de busca: Além da pesquisa no Wikipedia, permitir que o assistente pesquise em outros mecanismos de busca, como o Google, para fornecer resultados mais abrangentes.
 
--[ ] Lembrete de compromissos: Implementar uma funcionalidade para agendar e lembrar compromissos ou tarefas importantes.
+- [ ] Lembrete de compromissos: Implementar uma funcionalidade para agendar e lembrar compromissos ou tarefas importantes.
 
--[ ] Suporte a comandos personalizados: Implementar a capacidade de adicionar comandos personalizados para tarefas específicas, de acordo com as necessidades do usuário.
+- [ ] Suporte a comandos personalizados: Implementar a capacidade de adicionar comandos personalizados para tarefas específicas, de acordo com as necessidades do usuário.
 
 ## Ultimas Atualizações
--[x] Substituir o ChatGPT
+- [x] Substituir o ChatGPT
    Agora não utilizamos o chatgpt na função criativa, mas ainda utilizamos um modelos degenerativo para aprendizagem e criação. 
 
 - [x] Criar função de saida 
