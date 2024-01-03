@@ -1,7 +1,7 @@
 import pyttsx3
 
 def speak_function(text):
-    print(text)
+    # print(text)
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
     volume = engine.getProperty('volume')

@@ -1,6 +1,6 @@
 from modules import listen, backbone,speak
 if __name__ == "__main__":
-    print('Eu sou: E.T.H.A.N > Entidade Tecnológica de Assistência Natural')
+    print('Eu sou: J.A.R.V.I.S > Just A Rather Very Intelligent System')
     while True:
         comando = listen.listen_function()
         if comando != None:

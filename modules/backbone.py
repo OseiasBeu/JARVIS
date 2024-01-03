@@ -3,6 +3,7 @@ import pywhatkit
 
 from modules import finance
 from modules import createSomething
+from modules import listen
 def execute_command(comando):
     if 'procure por' in comando:
         procurar = comando.replace('procure por', '')
@@ -32,3 +33,5 @@ def execute_command(comando):
             return f'Erro ao obter cotação da ação'
     elif comando == 'sair' or comando == 'fechar programa':
         return 'Desligando'
+    else:
+        listen.listen_function()
