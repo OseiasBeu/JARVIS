@@ -7,7 +7,7 @@ def obter_cotacao_acao(symbol):
         return f'Ação:{symbol} \n Cotação atual:{cotacao_atual}'
     except Exception as e:
         print(f'Erro ao obter cotação da ação {symbol}:{e}')
-        return None
+        return None 
     
 # symbol = 'AAPL'
 # cotacao = obter_cotacao_acao(symbol)
